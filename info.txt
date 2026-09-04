@@ -1,0 +1,4 @@
+index: static page with a pciture of me, or something with a breif hello
+about me: describe who i am, education experice, breif research, and projects, contact information
+projects: own page listing my projects
+reseearch: own page talking about my research
