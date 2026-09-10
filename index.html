@@ -1,7 +1,6 @@
-<!--- This is the about me page, the landing page when a user opens the website-->
-
-<!Doctype html>
-<html>
+<!-- Landing page -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +10,6 @@
 </head>
 
 <body>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -19,34 +17,31 @@
         <a href="research.html">Research</a>
     </nav>
 
-    <h1>Hello, I am Grace!</h1>
+    <main>
+        <img src="images/IMG_3603.JPG" alt="Grace Moore" width="300">
+        <h1>Hello, I am Grace!</h1>
+        <h3>Student, developer</h3>
 
-    <footer>
         <a href="https://github.com/gemoore22">GitHub</a>
-        <a href="www.linkedin.com/in/gracemoore22">LinkedIn</a>
-        <a href="assests/resume.pdf">Resume</a>
+        <a href="https://www.linkedin.com/in/gracemoore22">LinkedIn</a>
+        <a href="assets/resume.pdf">Resume</a>
 
-        <section id="contact">
-            <h2>Get in Touch!</h2>
-            <p>If you are looking to get in contact, fill out the following form, and I will get back to you as soon as
-                i
-                can</p>
+        <dl>
+            <dt>Name</dt>
+            <dd>Grace Moore</dd>
+            <dt>School</dt>
+            <dd>Miami University</dd>
+            <dt>Hometown</dt>
+            <dd>Dublin, Ohio</dd>
+        </dl>
 
-            <form action="https://formspree.io/f/xvkoqgan" method="POST">
-                <div class="form-row">
-                    <input type="hidden" name="_next" value="https://gemoore22.github.io/personal_website/thanks.html">
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" rows="8" placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-
-            <p id="form-status"></p>
-
-        </section>
-    </footer>
+        <p>I am a Computer Science student at Miami University, graduating in 2027. My
+            coursework has ranged from machine learning and artificial intelligence to
+            operating systems and cybersecurity, and I am currently an undergraduate
+            research assistant working on AI and ML security looking for full time
+            starting in the Summer of 2027. When I have some free time, I love
+            cooking, going to the gym, and trying new coffee shops!</p>
+    </main>
 </body>
 
 </html>
